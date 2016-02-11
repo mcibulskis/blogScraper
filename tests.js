@@ -22,3 +22,15 @@ QUnit.test( "results have Url keys", function( assert ) {
     assert.ok( typeof data.d.results[u].Url != "undefined" );
   }
 });
+
+QUnit.test( "url can be retrieved", function( assert ) {
+  var u;
+  for (u in data.d.results) {
+    var done = assert.async();
+    $.ajax({
+      url: data.d.results[u].Url,
+      success: function () { assert.ok(1); done(); }, 
+      error:   function () { assert.ok(0); done(); },
+     });
+  }
+});
