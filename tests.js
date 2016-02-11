@@ -2,3 +2,10 @@ QUnit.test( "hello test", function( assert ) {
   assert.ok( 1 == "1", "Passed!" );
 });
 
+QUnit.test("searchBing returns empty collection when input is empty", function( assert ) {
+    var results = searchBing("");
+
+    var actual = Object.keys(results).length;
+    var expected = 0;
+    assert.equal (actual, expected, "Search returned an empty collection!");
+});
