@@ -1,0 +1,21 @@
+Problem.... --> Solution
+
+TYPE A ---> Type B
+
+Type KEYWORDS ----> Possible URLS
+
+Possible URLS ----> Social Media Links
+
+Social Media Links ----> Geolocation
+
+
+------------------------------------------------------------------------------
+|                         | links        |   more? deduppable? |  
+--------------------------------------------------------------------------------
+| <a href=bloglink>TITLE> | TWITTERLINK  | NAMEY BIT GUESS     | (linkedin: 5)
+| <a href=bloglink>TITLE> | LINKEDINLINK | NAMEY BIT GUESS     | (linkedin: 3)
+| <a href=bloglink>TITLE> | FACEBOOKLINK | NAMEY BIT GUESS     | (no idea)
+| <a href=bloglink>TITLE> | PLUSLINK     | NAMEY BIT GUESS     | (plus/linkedin/twitter)
+ 
+
+
