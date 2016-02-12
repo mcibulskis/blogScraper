@@ -33,5 +33,5 @@ QUnit.test("generateUrl returns test URL when test is passed in", function(asser
 
 QUnit.test("generateUrl returns correct url when given search terms", function(assert){
 	var actual = generateUrl("sunshine");
-	assert.equal(actual, "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=%27sunshine%27&$top=10&$format=json", "Generate correct url given search terms")
+	assert.equal(actual, "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=%27sunshine%27&$top=10&$format=json", "Generate correct url given search terms");
 });

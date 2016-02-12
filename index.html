@@ -10,6 +10,16 @@
     <script src="http://code.jquery.com/qunit/qunit-1.21.0.js"></script>
     <script src="tests.js"></script>
     <script>
+    var sampleParsedData = {
+          logUrl: 'url here', 
+          user: {
+
+          urls: [ 
+            'twitter url',
+            'linkedin url',
+            ]}
+         };
+
         $(document).ready(function (){
             $('#search').click(function(){
                 var searchTerms = $('#searchterms').val();
@@ -30,3 +40,4 @@
     <div id="content"></div>
 </body>
 </html>
+
