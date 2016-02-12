@@ -1,12 +1,15 @@
 var searchUrl = function (url, callback) {
     var results = {};
+    var apikeyForBing = ':qwffhaq33swiX0voiMZJPlsBYysHwHH2vRwt43z8+kc=';
     if (url.isEmpty()) {
         callback({});
     } else {
         $.ajax({
             url: url,
+            headers: { "Authorization": "Basic " + btoa(apikeyForBing)},
             success: function(data) {
                 callback(data);
+           
             }
         });
     }
