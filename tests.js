@@ -2,7 +2,7 @@ QUnit.test( "hello test", function( assert ) {
   assert.ok( 1 == "1", "Passed!" );
 });
 
-QUnit.test("search returns empty collection when input is empty", function( assert ) {
+QUnit.test("searchUrl returns empty collection when url is empty", function( assert ) {
     var done = assert.async();
     searchUrl('', function(data) {
     	var actual = Object.keys(data).length;
@@ -11,7 +11,7 @@ QUnit.test("search returns empty collection when input is empty", function( asse
     });
 });
 
-QUnit.test("search returns sample data when input is test", function( assert ) {
+QUnit.test("searchUrl returns sample data when url is 'sample.json'", function( assert ) {
 	var done = assert.async();
 
 	searchUrl('sample.json', function(data) {
@@ -19,4 +19,9 @@ QUnit.test("search returns sample data when input is test", function( assert ) {
     	assert.equal (actual, 50, "Search returned the sample data");
     	done();
 	});
+});
+
+QUnit.test("generateUrl returns empty string when search terms are empty", function( assert ) {
+	var actual = generateUrl("");
+	assert.equal(actual, "", "Generate URL returned empty string");
 });

@@ -11,6 +11,9 @@ var searchUrl = function (url, callback) {
         });
     }
 };
+var generateUrl = function(searchterm){
+    return ("");
+};
 
 String.prototype.isEmpty = function() {
     return (this.length === 0 || !this.trim());
