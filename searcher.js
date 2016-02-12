@@ -1,5 +1,8 @@
 var searchBing = function (terms) {
-    var results;
+    var results = {};
+    if(terms.isEmpty())
+        return results;
+    
     $.ajax({
         url: "/sample.json",
         success: function (data) {
@@ -12,4 +15,8 @@ var searchBing = function (terms) {
         }
     });
     return results;
+};
+
+String.prototype.isEmpty = function() {
+    return (this.length === 0 || !this.trim());
 };
