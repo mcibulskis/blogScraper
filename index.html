@@ -47,20 +47,22 @@ function getListOfUrlsAndNames (doc) {
   var list = [];
   $.each($(doc).find("a"), function ( i, el ) {
       if ((((el.attributes||{}).href||{}).value||'').match('twitter.com')) {
-        var name = l.attributes.href.match('twitter.com/([^/]+)/?');
-        list.push({ href: el.attributes.href, name: name });
+        var name = (el.attributes.href.value.match('twitter.com/([^/]+)/?')||[])[1];
+        list.push({ href: el.attributes.href.value, name: name });
       }
 
       if ((((el.attributes||{}).href||{}).value||'').match('linkedin.com/in')) {
-        var name = l.attributes.href.match('linkedin.com/in/([^/]+)/?');
-        list.push({ href: el.attributes.href, name: name });
+        var name = (el.attributes.href.value.match('linkedin.com/in/([^/]+)/?')||[])[1];
+        list.push({ href: el.attributes.href.value, name: name });
+        // POSSIBILITY: RETRIEVE LINKEDIN PAGE AND GET ACTUAL DISPLAY NAME
       } else if ((((el.attributes||{}).href||{}).value||'').match('linkedin.com')) {
-        assert.ok(0, "other linked in thing")
+        ///... ??
       }
 
       if ((((el.attributes||{}).href||{}).value||'').match('facebook.com')) {
-        var name = l.attributes.href.match('facebook.com/([^/]+)/?');
-        list.push({ href: el.attributes.href, name: name });
+        var name = (el.attributes.href.value.match('facebook.com/([^/]+)/?')||[])[1];
+        list.push({ href: el.attributes.href.value, name: name });
+        // POSSIBILITY: RETRIEVE FACEBOOK PAGE AND GET ACTUAL DISPLAY NAME
       }
     }); 
   return list;

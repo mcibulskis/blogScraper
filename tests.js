@@ -13,17 +13,14 @@ QUnit.test("searchUrl returns empty collection when url is empty", function( ass
 
 var data;
 
-//var thenable = new Promise(function( resolve, reject ) {
-  QUnit.test("working inside qunit", function( assert ) {
-    expect(0);
-    var donewithSample = assert.async()
-    searchUrl("sample.json", function (innerdata) { 
-      data = innerdata; 
-      donewithSample();
-//      resolve( innerdata );
-    })
-  });
-//} );
+QUnit.test("working inside qunit", function( assert ) {
+  expect(0);
+  var donewithSample = assert.async()
+  searchUrl("sample.json", function (innerdata) { 
+    data = innerdata; 
+    donewithSample();
+  })
+});
 
 QUnit.test("searchUrl returns data when a URL is passed in", function( assert ) {
 	var done = assert.async();
@@ -64,25 +61,13 @@ QUnit.test("generateUrl returns correct url when given search terms", function(a
 
 QUnit.test( "twitter/linkedin/facebook can be spotted", function( assert ) {
   var thisdone = assert.async();
-//  thenable.then(function (data) {
 	searchUrl('sample.json', function(data) {
     for (u in data.d.results) {
       (function() {
         var done = assert.async()
         retrievePage(data.d.results[u].Url, function (xmlhttpreq, error) { 
-          var doc = $.parseHTML(xmlhttpreq.responseText);
-          $.each($(doc).find("a"), function ( i, el ) { 
-            if (el.nodeName.toLowerCase() == "a") {
-              if ((((el.attributes||{}).href||{}).value||'').match('twitter.com')) {
-                assert.ok(1, "HOORAY");
-              }
-              if ((((el.attributes||{}).href||{}).value||'').match('linkedin.com')) {
-                assert.ok(1, "HIRED");
-              }
-              if ((((el.attributes||{}).href||{}).value||'').match('facebook.com')) {
-                assert.ok(1, "FRIENDED");
-              }
-            }
+          $.each(getListOfUrlsAndNames($.parseHTML(xmlhttpreq.responseText)), function (i, e) { 
+            assert.ok(1, e.name);
           } );
           done();
         } )
