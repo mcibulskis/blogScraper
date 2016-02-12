@@ -81,7 +81,21 @@ QUnit.test( "twitter/linkedin/facebook can be spotted", function( assert ) {
   });
 });
 
-QUnit.test( "spoltt", function( assert ) {
-  assert.ok(1);
+QUnit.test( "querybing?", function( assert ) {
+  var done = assert.async();
+  queryBing('sample.json', function (listofurls) {
+    assert.ok(listofurls.length > 0);
+    done();
+  });
+});
+
+QUnit.test( "researchurls?", function( assert ) {
+  var done = assert.async();
+  queryBing('sample.json', function (listofurls) {
+    researchUrls(listofurls, function ( listofsocialists ) { 
+      assert.ok(0 < listofsocialists.length);
+      done();
+    });
+  });
 });
 
