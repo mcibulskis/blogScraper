@@ -1,0 +1,557 @@
+{
+    "d": {
+        "results": [
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=0&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "c71d8546-f7a8-4d85-bcfa-b476a87637e4",
+                "Title": "TODOdev | Agile Java development",
+                "Description": "Agile Java development ... The introduction of features Stream API and Lambda in Java 8 enables us to make an elegant conversion from a JDBC ResultSet to a ...",
+                "DisplayUrl": "https://tododev.wordpress.com",
+                "Url": "https://tododev.wordpress.com/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=1&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "0a3c7f94-6105-440d-bf80-f2aa3e62066a",
+                "Title": "Alistair Todd Ltd | Agile Java Consulting",
+                "Description": "Alistair Todd Ltd are a consultancy specialising in Agile Java software development. With deep expertise in technical practices like TDD and BDD, long experience of ...",
+                "DisplayUrl": "https://alistairtoddltd.wordpress.com",
+                "Url": "https://alistairtoddltd.wordpress.com/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=2&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "1b62aed0-3224-4d23-87eb-14b62f5df37f",
+                "Title": "A journey from C and JAVA to GOLANG | Agile Maverick",
+                "Description": "This blog tells the story of how the Programming Languages C, JAVA and GOLANG changed my career and what I learned from each transition. When I started my ...",
+                "DisplayUrl": "https://rbock44.wordpress.com/2015/03/30/c-java-golang",
+                "Url": "https://rbock44.wordpress.com/2015/03/30/c-java-golang/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=3&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "05b34ca8-0732-4936-9105-8fc7d16ca8fb",
+                "Title": "agile | Java, Agile & Co. Blog",
+                "Description": "Agile time management depends on two variables: Team Velocity, i.e. number of story point for iteration; Stories Size, i.e. the dimension associated with a story",
+                "DisplayUrl": "https://javaandco.wordpress.com/category/agile",
+                "Url": "https://javaandco.wordpress.com/category/agile/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=4&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "2fc9a126-ca4f-418e-b228-ebea48cc0995",
+                "Title": "Agile Development – no stories yet | Knights of the ...",
+                "Description": "By Paul Shields • Posted in Agile, Java • Tagged Agile, Java, software, software-development. 0. Post navigation",
+                "DisplayUrl": "https://automagical2012.wordpress.com/2016/02/05/agile-development...",
+                "Url": "https://automagical2012.wordpress.com/2016/02/05/agile-development-no-stories-yet/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=5&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "34096797-bb32-4224-931f-b73f1abcdde0",
+                "Title": "Agile JavaScript ! | Agile Developer\u0027s Blog",
+                "Description": "What makes JavaScript Agile ? JavaScript is Agile when it deploys to your visitors using optimized techniques. What makes JavaScript deployment optimized ?",
+                "DisplayUrl": "https://python2.wordpress.com/2010/04/24/agile-javascript",
+                "Url": "https://python2.wordpress.com/2010/04/24/agile-javascript/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=6&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "6e2a6010-20b3-41a6-82b2-f1d923353561",
+                "Title": "Agile Java Development with Spring, Hibernate and Eclipse ...",
+                "Description": "I’m reading the book Agile Java Development with Spring, Hibernate and Eclipse, by Anil Hemrajani. About the author: Anil Hemrajani has been working with ...",
+                "DisplayUrl": "https://ajlopez.wordpress.com/2008/11/25/agile-java-development...",
+                "Url": "https://ajlopez.wordpress.com/2008/11/25/agile-java-development-with-spring-hibernate-and-eclipse/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=7&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "30ce2817-ee00-4402-a611-9dd9b4cfb72d",
+                "Title": "Agile Java - Flexible, Nimble & Fast Java Web Programming ...",
+                "Description": "Every non-trivial java project uses / references external 3rd party jar libraries. There are 2 ways to include these 3rd party libraries into a project:",
+                "DisplayUrl": "https://agilejava.wordpress.com",
+                "Url": "https://agilejava.wordpress.com/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=8&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "21a6c353-ac39-4b4d-83e4-1464e921a295",
+                "Title": "Agile Introduction For Dummies | Agile Transformations ...",
+                "Description": "Should You Go Agile? Agile methods are not for everyone. Certain things must be borne in mind before going agile. However, agile methodologies are widely applicable ...",
+                "DisplayUrl": "https://agileintro.wordpress.com",
+                "Url": "https://agileintro.wordpress.com/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=9&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "3a3ba514-3701-4fbb-b2ba-13ec18bcef2d",
+                "Title": "Be Different… – Strategy,Agile, Java, .NET, TDD and all ...",
+                "Description": "Strategy,Agile, Java, .NET, TDD and all else I love. Menu. About; Farewell to my strength – My Dad. April 15, 2015 April 16, 2015 · Leave a comment ·",
+                "DisplayUrl": "https://vibhu.wordpress.com",
+                "Url": "https://vibhu.wordpress.com/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=10&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "bdb962b9-0702-4893-997d-a2cd6f22ec6b",
+                "Title": "Aaron Chesny\u0027s Agile Java Blog | Java … Agile … and a ...",
+                "Description": "I have decided that I would like to teach everyone how to program Java in an Agile way. I am going to do this through a video series on youtube.",
+                "DisplayUrl": "https://achesny.wordpress.com",
+                "Url": "https://achesny.wordpress.com/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=11&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "acb73334-1a11-48bc-9ad4-c6b7a05d855e",
+                "Title": "Category Archives: SDLC - Java World | Java",
+                "Description": "Category Archives: SDLC. ... Pascal, Java are used for ... 1.Agile Software Development is a group of software development methodologies based on iterative and ...",
+                "DisplayUrl": "https://anshuchoudhury.wordpress.com/category/sdlc",
+                "Url": "https://anshuchoudhury.wordpress.com/category/sdlc/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=12&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "a857c889-d761-4d17-98a3-7970e9e3aa15",
+                "Title": "Waterfall methodology - Agile Introduction For Dummies",
+                "Description": "There is no IT meeting that does not talk and debate endlessly about Waterfall vs. Agile development methodologies. ... Java or Visual Basic, ...",
+                "DisplayUrl": "https://agileintro.wordpress.com/2008/01/04/waterfall-vs-agile...",
+                "Url": "https://agileintro.wordpress.com/2008/01/04/waterfall-vs-agile-methodology/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=13&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "6c60922c-b706-4431-8ecd-997b6b07e942",
+                "Title": "Agile Java Development with Spring, Hibernate and Eclipse ...",
+                "Description": "Agile Java Development with Spring, Hibernate and Eclipse, 2006, 360 pages, Anil Hemrajani, 0132714906, 9780132714907, Sams Publishing, 2006",
+                "DisplayUrl": "https://alamakih.files.wordpress.com/2014/06/agile-java...",
+                "Url": "https://alamakih.files.wordpress.com/2014/06/agile-java-development-with-spring-hibernate-and-eclipse.pdf"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=14&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "9fb7f1a7-efc1-43ee-b295-1830b1e6bf3d",
+                "Title": "it compiles, job done | Thoughts on TDD, Agile, Scala and ...",
+                "Description": "Thoughts on TDD, Agile, Scala and Java from Vincent Fleetwood (by Vincent Fleetwood)",
+                "DisplayUrl": "https://vfleetwood.wordpress.com",
+                "Url": "https://vfleetwood.wordpress.com/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=15&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "858ca284-91fc-41dd-b410-db60add434b8",
+                "Title": "Java, Agile & Co. Blog | Just another Java & Agile weblog",
+                "Description": "Agile time management depends on two variables: Team Velocity, i.e. number of story point for iteration; Stories Size, i.e. the dimension associated with a story",
+                "DisplayUrl": "https://javaandco.wordpress.com",
+                "Url": "https://javaandco.wordpress.com/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=16&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "902dd579-9092-4487-a7cb-47cf94f9f9ea",
+                "Title": "Agile Java Development with Spring, Hibernate and Eclipse ...",
+                "Description": "ISBN: 0672328968 Title: Agile Java Development with Spring, Hibernate and Eclipse Author: Anil Hemrajani Publisher: SamsPublication Date: 2006-05-09 Number ...",
+                "DisplayUrl": "https://latestjavaebooks.wordpress.com/2006/11/05/agile-java...",
+                "Url": "https://latestjavaebooks.wordpress.com/2006/11/05/agile-java-development-with-spring-hibernate-and-eclipse/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=17&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "a9aaedd8-d2f0-4468-972e-3ad588767f40",
+                "Title": "Java Deep | Pure Java, what else",
+                "Description": "Java reflection proxy implementation can not do that ... The proper selection between waterfall and agile methodology is a matter of free choice and does not really ...",
+                "DisplayUrl": "https://javax0.wordpress.com",
+                "Url": "https://javax0.wordpress.com/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=18&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "aed5d5c3-5029-4faf-b23b-bdea34d31540",
+                "Title": "Random Colors | Crude Java and Agile thoughts",
+                "Description": "Crude Java and Agile thoughts ... Nowadays Agile is almost on its peak of popularity, and Scrum is on everybody’s tongue.",
+                "DisplayUrl": "https://paritoshranjan.wordpress.com",
+                "Url": "https://paritoshranjan.wordpress.com/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=19&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "a24c6f76-e2fb-4426-b99e-6ee21b5134d9",
+                "Title": "gssachdeva | Random musings on Java, Agile, Big Data and ...",
+                "Description": "Random musings on Java, Agile, Big Data and Cloud. gssachdeva. Random musings on Java, ... Follow @gssachdeva. gssachdeva The Twenty Ten Theme.",
+                "DisplayUrl": "https://gssachdeva.wordpress.com",
+                "Url": "https://gssachdeva.wordpress.com/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=20&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "56d2bfdc-0381-4512-ae2f-5a05ab4076c5",
+                "Title": "Agile Software Development: Principles, Patterns, and ...",
+                "Description": "Agile Software Development: Principles, Patterns, and Practices, 2012, Robert C. ... Contains a wealth of reusable C++ and Java code; Focuses",
+                "DisplayUrl": "https://lexove.files.wordpress.com/2014/08/agile-software...",
+                "Url": "https://lexove.files.wordpress.com/2014/08/agile-software-development-principles-patterns-and-practices.pdf"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=21&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "4e4a569a-4cd8-4160-adb4-dbf4bde6f81b",
+                "Title": "James Farrell | Agile Java developer",
+                "Description": "Agile Java developer ... I recently saw a post about testing Spring MVC controllers outside of a container.",
+                "DisplayUrl": "https://jamesfarrell129.wordpress.com",
+                "Url": "https://jamesfarrell129.wordpress.com/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=22&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "2abe2d5b-51bc-41e7-a897-f8173688af36",
+                "Title": "JavaBien! | David Gageot, Java & Agile",
+                "Description": "David Gageot, Java & Agile (by David Gageot) ... Today, Apple will announce version 3 of iPhone OS. Here is my personal wish list:",
+                "DisplayUrl": "https://javabien.wordpress.com",
+                "Url": "https://javabien.wordpress.com/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=23&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "4f3fbcce-5b85-4a45-9a24-67b1c96fff13",
+                "Title": "Relationships and Cardinality | Java Works",
+                "Description": "source :Agile Java Development with Spring, Hibernate and Eclipse by Anil Hemrajani. Database relationships aretypically defined in terms of direction and ...",
+                "DisplayUrl": "https://javaworks.wordpress.com/.../10/relationships-and-cardinality",
+                "Url": "https://javaworks.wordpress.com/2008/02/10/relationships-and-cardinality/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=24&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "3d383ef4-6aed-481b-b27f-0f44be077b8e",
+                "Title": "IdleSun\u0027s Weblog | Java, Flex, JavaScript, Agile, SCRUM ...",
+                "Description": "Java enum is powerful. However, it is tricky if you want to use it as integer just like in C/C++. Actually, it is not easy at all because Java enum elements are objects.",
+                "DisplayUrl": "https://idlesun.wordpress.com",
+                "Url": "https://idlesun.wordpress.com/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=25&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "f2e91f35-bc4d-4365-b7a0-2d0c77f0deca",
+                "Title": "java | The Agile Warrior",
+                "Description": "Posts about java written by JR. The Agile Warrior. A blog about creating valuable software. Home; About; Articles; Cheat sheets. Git; Heroku; Illustrator; iOS;",
+                "DisplayUrl": "https://agilewarrior.wordpress.com/tag/java",
+                "Url": "https://agilewarrior.wordpress.com/tag/java/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=26&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "9bda2c52-a584-46cb-aba3-1223d21bc78a",
+                "Title": "Agile Interview Questions And Answers For Experienced",
+                "Description": "Agile Interview Questions And Answers For Experienced Read/Download It\u0027s impossible to be a Java developer without experience agile in one of it\u0027s many forms.",
+                "DisplayUrl": "https://anversoftsel.files.wordpress.com/2015/10/agile-interview...",
+                "Url": "https://anversoftsel.files.wordpress.com/2015/10/agile-interview-questions-and-answers-for-experienced.pdf"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=27&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "54b0b65e-cabb-43dc-8fd5-1c5c06c08a89",
+                "Title": "Java yield-like using Stream API | TODOdev",
+                "Description": "Agile Java development . Home; Development. Testing; Software Eng; Libs ... Home \u003e Desarrollo, Librerías/Frameworks \u003e Java yield-like using Stream API",
+                "DisplayUrl": "https://tododev.wordpress.com/.../11/java-yield-like-using-stream-api",
+                "Url": "https://tododev.wordpress.com/2014/08/11/java-yield-like-using-stream-api/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=28&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "5290e153-ccb7-4351-a664-22701aeb2c7e",
+                "Title": "Agile Software | Java, Android, Agile, Scrum, Swift, ITIL ...",
+                "Description": "Java, Android, Agile, Scrum, Swift, ITIL, Cloud Computing, Openstack",
+                "DisplayUrl": "https://agilepm2012.wordpress.com",
+                "Url": "https://agilepm2012.wordpress.com/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=29&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "a6e8c24f-6e68-4118-a80f-a4edf11a3bdd",
+                "Title": "Spell check in Eclipse | Agile Java - Flexible, Nimble ...",
+                "Description": "Out of the box, by default, Eclipse does not perform spell check for you. But it does support such a feature. You just need to do some configuration work.",
+                "DisplayUrl": "https://agilejava.wordpress.com/2006/09/16/spell-check-in-eclipse",
+                "Url": "https://agilejava.wordpress.com/2006/09/16/spell-check-in-eclipse/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=30&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "290d0dbd-d507-4edc-86c1-e794830f06bb",
+                "Title": "Scrum Master Jar Jar | The Practice and Art of Software ...",
+                "Description": "Scrum replaces the Pointy Haired Boss with Scrum Master Jar Jar. Despite all the mystique, the “Scrum” meeting itself is nothing more than a Stand Up ...",
+                "DisplayUrl": "https://softwaremaestro.wordpress.com/2007/06/30/scrum-master-jar-jar",
+                "Url": "https://softwaremaestro.wordpress.com/2007/06/30/scrum-master-jar-jar/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=31&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "02c1a79e-7768-4e49-a6e8-f8d043604663",
+                "Title": "Interview Questions And Answers On Agile Testing",
+                "Description": "Questions & Answers · Top 100 Java Interview Questions. We have listed top 25 Agile interview ... Agile Testing Interview Questions and Answers will help you",
+                "DisplayUrl": "https://usabpajudg.files.wordpress.com/2015/10/interview-questions...",
+                "Url": "https://usabpajudg.files.wordpress.com/2015/10/interview-questions-and-answers-on-agile-testing.pdf"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=32&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "3405686e-4bf9-4d75-b91b-386ac38f5c97",
+                "Title": "Agile Testing Interview Questions And Answers Pdf",
+                "Description": "Agile Testing Interview Questions And Answers Pdf Top 10 agile project interview questions with answers In this file, you can ref interview topinterviewquestions.info ...",
+                "DisplayUrl": "https://plotefmilti.files.wordpress.com/2015/08/agile-testing...",
+                "Url": "https://plotefmilti.files.wordpress.com/2015/08/agile-testing-interview-questions-and-answers-pdf.pdf"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=33&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "0a3f8103-3687-472f-9004-247e689c6f80",
+                "Title": "Be Different… – Page 2 – Strategy,Agile, Java, .NET, TDD ...",
+                "Description": "Strategy,Agile, Java, .NET, ... So I am here at the World Architecture summit. I am an Agile Lean Practitioner and have been building systems for many years.",
+                "DisplayUrl": "https://vibhu.wordpress.com/page/2",
+                "Url": "https://vibhu.wordpress.com/page/2/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=34&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "e6820da0-d727-4041-ad9d-cab2473ea715",
+                "Title": "The 2 types of JavaDoc-like documentation for JSTL | Agile ...",
+                "Description": "This post is to save those who are looking for the \"JavaServer Pages Standard Tag Library 1.1 Tag Reference\" some time (instead of looking high and low in ...",
+                "DisplayUrl": "https://agilejava.wordpress.com/2006/09/17/the-2-types-of-javadoc...",
+                "Url": "https://agilejava.wordpress.com/2006/09/17/the-2-types-of-javadoc-like-documentation-for-jstl/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=35&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "f500640b-5dcf-41f2-8047-9790383a2201",
+                "Title": "Java Spring Hibernate Tutorial Pdf - blacamrobook",
+                "Description": "Description : Agile Java™ Development With Spring, Hibernate and Eclipse is a Description : An easy-to-follow tutorial, that breaks down the enterprise.",
+                "DisplayUrl": "https://blacamrobook.files.wordpress.com/2015/07/java-spring...",
+                "Url": "https://blacamrobook.files.wordpress.com/2015/07/java-spring-hibernate-tutorial-pdf.pdf"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=36&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "09ea2cde-8db7-44e2-b03b-1dd09dc28871",
+                "Title": "Servlet 2.4 Spec out but web-app_2_4.dtd not ... - Agile Java",
+                "Description": "For those working on Java Web Applications and creating .war files, your DOCTYPE declaration at the top of your web.xml file probably is this :",
+                "DisplayUrl": "https://agilejava.wordpress.com/2006/09/17/web-app_2_4dtd-is-not...",
+                "Url": "https://agilejava.wordpress.com/2006/09/17/web-app_2_4dtd-is-not-out-yet/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=37&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "0c515678-068d-4980-9654-a9a0b4f3e8de",
+                "Title": "Software Development Trends in 2015 | It\u0027s All About the Code",
+                "Description": "Java Several sessions discussed the new features of Java 8 and trends in ... Software Development Trends in 2015. ... Agile includes a focus on code ...",
+                "DisplayUrl": "https://karentegtmeyer.wordpress.com/2015/08/04/software...",
+                "Url": "https://karentegtmeyer.wordpress.com/2015/08/04/software-development-trends-in-2015/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=38&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "8295a4cf-9de4-4146-bc7e-3b04794ccdad",
+                "Title": "Agile Software Devevelopment | Angel \\\"Java\\\" Lopez on ...",
+                "Description": "Posts about Agile Software Devevelopment written by ajlopez",
+                "DisplayUrl": "https://ajlopez.wordpress.com/category/agile-software...",
+                "Url": "https://ajlopez.wordpress.com/category/agile-software-devevelopment/page/4/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=39&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "a4682d95-f5b7-4689-a94b-3646c0f7a674",
+                "Title": "Agile Interview Questions And Answers Pdf - bemoticka",
+                "Description": "Agile Interview Questions And Answers Pdf List of top 18 most frequently asked agile testing interview questions and answers pdf download free. It\u0027s impossible to be ...",
+                "DisplayUrl": "https://bemoticka.files.wordpress.com/2015/07/agile-interview...",
+                "Url": "https://bemoticka.files.wordpress.com/2015/07/agile-interview-questions-and-answers-pdf.pdf"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=40&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "3efeed11-78dc-4c33-bae5-0e93c9bb9486",
+                "Title": "Our Services | Alistair Todd Ltd - Agile Java Consulting",
+                "Description": "Agile Java Specialist, Software Craftsman, Clean Coder, Worldwide Adventure Motorcyclist, Open Source Committer, Blogger, Property Developer, Nurburgring Addict ...",
+                "DisplayUrl": "https://alistairtoddltd.wordpress.com/services",
+                "Url": "https://alistairtoddltd.wordpress.com/services/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=41&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "05cba651-db03-4c91-aa96-5f7b41588344",
+                "Title": "GANTT in agile environment | One Yoxel",
+                "Description": "I am suggesting to look at the use of GANTT charts in context of an agile environment from quite an untraditional angle. A modified, fully-automated ...",
+                "DisplayUrl": "https://yoxel.wordpress.com/2007/08/14/gannt-in-agile-envoronment",
+                "Url": "https://yoxel.wordpress.com/2007/08/14/gannt-in-agile-envoronment/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=42&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "25dcdc90-4edb-45b0-b41b-6627154d638b",
+                "Title": "Facebook Java API | Java, Agile & Co. Blog",
+                "Description": "Some days ago I found the useful Facebook Java API (v3.0) and I began to use this library. I loose some hours to understand how to make a server-side login ...",
+                "DisplayUrl": "https://javaandco.wordpress.com/2009/10/21/facebook-java-api",
+                "Url": "https://javaandco.wordpress.com/2009/10/21/facebook-java-api/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=43&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "f412df28-b436-4eff-9c04-754028d648b9",
+                "Title": "javascript | The Agile Warrior",
+                "Description": "When I first got into Javascript, it wasn’t obvious to me how best to use the language to do a simple model-view-controller. I’ve heard of backbone ...",
+                "DisplayUrl": "https://agilewarrior.wordpress.com/category/javascript",
+                "Url": "https://agilewarrior.wordpress.com/category/javascript/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=44&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "7405d317-075d-4a4b-9c0c-1ce35e11d365",
+                "Title": "agile | punkmiktests",
+                "Description": "Posts about agile written by punkmiktests. ... Again the developer at Brighton Java stressed to not just go and code but close your laptop/turn your PC off for ...",
+                "DisplayUrl": "https://punkmiktests.wordpress.com/category/agile",
+                "Url": "https://punkmiktests.wordpress.com/category/agile/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=45&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "1b3e34e9-d2b8-4403-a746-2d6d8293a847",
+                "Title": "Agile practices: Sprint review meeting (Demo!) | Java ...",
+                "Description": "Who: Leaded by the Team Members and attended by Product Owner, anyone can join (usually the customer make invitations). Guidelines: Business level demo, if ...",
+                "DisplayUrl": "https://javaandco.wordpress.com/2009/12/01/agile-practices-sprint...",
+                "Url": "https://javaandco.wordpress.com/2009/12/01/agile-practices-sprint-review-meeting-demo/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=46&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "e1358db2-a673-4fcd-9990-91a91de56893",
+                "Title": "new Tantchonta().getBlog() | Tech | Java | IT | Agile ...",
+                "Description": "Tech | Java | IT | Agile | SOA | Build | Run (by Tantchonta M\u0027PO) new Tantchonta().getBlog() Tech | Java | IT | Agile | SOA | Build | Run Main Menu. Skip to content ...",
+                "DisplayUrl": "https://tantchontampo.wordpress.com",
+                "Url": "https://tantchontampo.wordpress.com/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=47&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "834ac119-d37b-4b87-976f-fab0d79a7758",
+                "Title": "Agile Development For Dummies Pdf - WordPress.com",
+                "Description": "Agile Development For Dummies Pdf Ebook Agile Project Management with Scrum ... Ableh. java for dummies free download agile software development principles patterns and",
+                "DisplayUrl": "https://meofapitri.files.wordpress.com/2015/07/agile-development...",
+                "Url": "https://meofapitri.files.wordpress.com/2015/07/agile-development-for-dummies-pdf.pdf"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=48&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "feb12678-f506-4972-9229-803006e57fd8",
+                "Title": "Agile Programming vs. Extreme Programming | James D. McCaffrey",
+                "Description": "Agile Programming and Extreme Programming are two types of software development methodologies. There are many slight variations on both Agile and Extreme ...",
+                "DisplayUrl": "https://jamesmccaffrey.wordpress.com/2006/04/11/agile-programming...",
+                "Url": "https://jamesmccaffrey.wordpress.com/2006/04/11/agile-programming-vs-extreme-programming/"
+            },
+            {
+                "__metadata": {
+                    "uri": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com agile java\u0027&$skip=49&$top=1",
+                    "type": "WebResult"
+                },
+                "ID": "c34595a5-98eb-4b7e-8886-62e7d9179bc0",
+                "Title": "Contact Us - Alistair Todd Ltd | Agile Java Consulting",
+                "Description": "Agile Java Specialist, Software Craftsman, Clean Coder, Worldwide Adventure Motorcyclist, Open Source Committer, Blogger, Property Developer, Nurburgring Addict ...",
+                "DisplayUrl": "https://alistairtoddltd.wordpress.com/contact",
+                "Url": "https://alistairtoddltd.wordpress.com/contact/"
+            }
+        ],
+        "__next": "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=\u0027site:wordpress.com%20agile%20java\u0027&$skip=50&$top=50"
+    }
+}
