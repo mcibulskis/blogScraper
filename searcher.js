@@ -12,7 +12,11 @@ var searchUrl = function (url, callback) {
     }
 };
 var generateUrl = function(searchterm){
-    return ("");
+    if (searchterm.isEmpty()) {
+        return "";
+    }
+
+    return "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=%27" + searchterm + "%27&$top=10&$format=json";
 };
 
 String.prototype.isEmpty = function() {

@@ -25,3 +25,8 @@ QUnit.test("generateUrl returns empty string when search terms are empty", funct
 	var actual = generateUrl("");
 	assert.equal(actual, "", "Generate URL returned empty string");
 });
+
+QUnit.test("generateUrl returns correct url when given search terms", function(assert){
+	var actual = generateUrl("sunshine");
+	assert.equal(actual, "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=%27sunshine%27&$top=10&$format=json", "Generate correct url given search terms")
+});
