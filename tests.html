@@ -1,15 +1,17 @@
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>QUnit Example</title>
+    <link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.21.0.css">
+    <script language="javascript" src="http://code.jquery.com/qunit/qunit-1.21.0.js"></script>
     <script language="javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script language="javascript" src="scraper.js">
     <script language="javascript" src="searcher.js"></script>
+    <script language="javascript" src="scraper.js"></script>
+    <script language="javascript" src="tests.js"></script>
     <script>
     var sampleParsedData = {
-          logUrl: 'url here', 
+          blogUrl: 'url here', 
           user: {
 
           urls: [ 
@@ -23,7 +25,10 @@
                 var searchTerms = $('#searchterms').val();
                 var url = generateUrl(searchTerms);
                 searchUrl(url, function(data){
-                    $("#content").text(JSON.stringify(data));
+                    var parsedData = data.d.results.map(function(element){
+                        return { "blogUrl": element.Url, "User": { urls: ["user profile here"]} };
+                    });
+                    $("#content").text(JSON.stringify(parsedData));
                 })
             });
             
@@ -31,9 +36,8 @@
     </script>
 </head>
 <body>
-    <input type=text id="searchterms" width="100" />
-    <button id='search' type='button' >Search</button>
-    <div id="content"></div>
-</body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+    </body>
 </html>
 
