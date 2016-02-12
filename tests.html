@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>QUnit Example</title>
+    <link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.21.0.css">
+    <script language="javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script language="javascript">
+        var sampleParsedData = 
+		{ blogUrl: 'url here', 
+		  user: {
+
+		  urls: [ 
+			'twitter url',
+			'linkedin url',
+		]}};
+
+// EXAMPLE CALL
+//renderTable( researchUrls( queryBing("query") ) );
+
+// input type: query string
+// output type: list of urls matching [ url, url, ... ]
+function queryBing(doc) {
+  var list = [];
+  return list;
+}
+
+// input type: list of urls [ url, url, ... ]
+// output type: [ { url: "...", social: [ { href: "...", name: "george" }, { ... } ] 
+function researchUrls (list) {
+  var outputlist = [];
+  list.each(function (item) {
+     outputlist.push({ link: item, social: getListOfUrlsAndNames(getDocumentForUrl(item)) });
+  });
+}
+
+// input type: [ { url: "...", social: [ { href: "...", name: "george" }, { ... } ] 
+// output type: SIDE EFFECT NO OUTPUT
+function renderTable() {
+  // PUT DATA IN TABLE HERE
+}
+
+// input type: document object
+// output type: [ { href: "...", name: "george" }, { ... } ]
+function getListOfUrlsAndNames (doc) {
+  var list = [];
+  $.each($(doc).find("a"), function ( i, el ) {
+      if ((((el.attributes||{}).href||{}).value||'').match('twitter.com')) {
+        var name = l.attributes.href.match('twitter.com/([^/]+)/?');
+        list.push({ href: el.attributes.href, name: name });
+      }
+
+      if ((((el.attributes||{}).href||{}).value||'').match('linkedin.com/in')) {
+        var name = l.attributes.href.match('linkedin.com/in/([^/]+)/?');
+        list.push({ href: el.attributes.href, name: name });
+      } else if ((((el.attributes||{}).href||{}).value||'').match('linkedin.com')) {
+        assert.ok(0, "other linked in thing")
+      }
+
+      if ((((el.attributes||{}).href||{}).value||'').match('facebook.com')) {
+        var name = l.attributes.href.match('facebook.com/([^/]+)/?');
+        list.push({ href: el.attributes.href, name: name });
+      }
+    }); 
+  return list;
+}
+
+function retrievePage (url, cb) {
+    // how are we mangling
+    // RAW: https://something.wordpress.com/blahblab
+    // PROXY USES: http://localhost:1337/something.wordpress.com/blahblab
+    var mangled = url.replace(':/', '');
+    $.ajax({
+      url: 'http://localhost:1337/' + mangled,
+      complete: cb
+     });
+}
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Wordpress Talent Search</title>
+    <script language="javascript" src="http://code.jquery.com/qunit/qunit-1.21.0.js" ></script>
+    <script language="javascript" src="searcher.js"></script>
+    <script language="javascript" src="tests.js"></script>
+</head>
+
+<body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+</body>
+
+</html>
