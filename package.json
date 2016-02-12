@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/mcibulskis/blogScraper#readme",
   "dependencies": {
-    "corsproxy": "^1.4.0"
+    "corsproxy": "^1.4.0",
+    "async": "^0"
   },
   "devDependencies": {
     "lite-server": "^2.0.1"
