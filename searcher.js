@@ -1,20 +1,15 @@
-var searchBing = function (terms) {
+var searchUrl = function (url, callback) {
     var results = {};
-    if(terms.isEmpty())
-        return results;
-    
-    $.ajax({
-        url: "sample.json",
-        success: function (data) {
-            console.log("Hi");
-            results = data;
-
-        },
-        failure: function (error) {
-            console.log(error);
-        }
-    });
-    return results;
+    if (url.isEmpty()) {
+        callback({});
+    } else {
+        $.ajax({
+            url: url,
+            success: function(data) {
+                callback(data);
+            }
+        });
+    }
 };
 
 String.prototype.isEmpty = function() {
