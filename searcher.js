@@ -1,10 +1,10 @@
 var searchBing = function (terms) {
     var results;
     $.ajax({
-        url: "/sample.json",
+        url: "sample.json",
         success: function (data) {
             console.log("Hi");
-            results = JSON.parse(data);
+            results = data;
 
         },
         failure: function (error) {
