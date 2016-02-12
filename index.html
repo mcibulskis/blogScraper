@@ -7,20 +7,26 @@
     <link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.21.0.css">
     <script language="javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script language="javascript" src="searcher.js"></script>
+    <script src="http://code.jquery.com/qunit/qunit-1.21.0.js"></script>
+    <script src="tests.js"></script>
+    <script>
+        $(document).ready(function (){
+            $('#search').click(function(){
+                var searchTerms = $('#searchterms').val();
+                var url = generateUrl(searchTerms);
+                searchUrl(url, function(data){
+                    $("#content").text(JSON.stringify(data));
+                })
+            });
+            
+        });
+    </script>
 </head>
 <body>
     <div id="qunit"></div>
     <div id="qunit-fixture"></div>
-    <script src="http://code.jquery.com/qunit/qunit-1.21.0.js"></script>
-    <script src="tests.js"></script>
-    <input type=text name="searchterms" width="100" />
-    <table>
-        <thead>
-            <th>HEADER</th>
-        </thead>
-        <tbody>
-            <th>BODY</th>
-        </tbody>
-    </table>
+    <input type=text id="searchterms" width="100" />
+    <button id='search' type='button' >Search</button>
+    <div id="content"></div>
 </body>
 </html>
