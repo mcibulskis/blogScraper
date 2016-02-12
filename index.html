@@ -16,6 +16,55 @@
 			'linkedin url',
 		]}};
 
+// EXAMPLE CALL
+//renderTable( researchUrls( queryBing("query") ) );
+
+// input type: query string
+// output type: list of urls matching [ url, url, ... ]
+function queryBing(doc) {
+  var list = [];
+  return list;
+}
+
+// input type: list of urls [ url, url, ... ]
+// output type: [ { url: "...", social: [ { href: "...", name: "george" }, { ... } ] 
+function researchUrls (list) {
+  my outputlist = [];
+  list.each(function (item) {
+     outputlist.push({ link: item, social: getListOfUrlsAndNames(getDocumentForUrl(item)) });
+  });
+}
+
+// input type: [ { url: "...", social: [ { href: "...", name: "george" }, { ... } ] 
+// output type: SIDE EFFECT NO OUTPUT
+function renderTable() {
+  // PUT DATA IN TABLE HERE
+}
+
+// input type: document object
+// output type: [ { href: "...", name: "george" }, { ... } ]
+function getListOfUrlsAndNames (doc) {
+  var list = [];
+  $.each($(doc).find("a"), function ( i, el ) {
+      if ((((el.attributes||{}).href||{}).value||'').match('twitter.com')) {
+        var name = l.attributes.href.match('twitter.com/([^/]+)/?');
+        list.push({ href: el.attributes.href, name: name });
+      }
+
+      if ((((el.attributes||{}).href||{}).value||'').match('linkedin.com/in')) {
+        var name = l.attributes.href.match('linkedin.com/in/([^/]+)/?');
+        list.push({ href: el.attributes.href, name: name });
+      } else if ((((el.attributes||{}).href||{}).value||'').match('linkedin.com')) {
+        assert.ok(0, "other linked in thing")
+      }
+
+      if ((((el.attributes||{}).href||{}).value||'').match('facebook.com')) {
+        list.push({ href: el.attributes.href, name: });
+      }
+    }); 
+  return list;
+}
+
 function retrievePage (url, cb) {
     // how are we mangling
     // RAW: https://something.wordpress.com/blahblab
