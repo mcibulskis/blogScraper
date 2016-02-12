@@ -16,6 +16,9 @@ var generateUrl = function(searchterm){
         return "";
     }
 
+    if(searchterm === "test")
+        return "sample.json";
+
     return "https://api.datamarket.azure.com/Data.ashx/Bing/Search/Web?Query=%27" + searchterm + "%27&$top=10&$format=json";
 };
 
