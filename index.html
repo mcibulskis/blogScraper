@@ -87,7 +87,7 @@ function retrievePage (url, cb) {
     <script language="javascript" src="searcher.js"></script>
     <script>
     var sampleParsedData = {
-          logUrl: 'url here', 
+          blogUrl: 'url here', 
           user: {
 
           urls: [ 
@@ -101,7 +101,10 @@ function retrievePage (url, cb) {
                 var searchTerms = $('#searchterms').val();
                 var url = generateUrl(searchTerms);
                 searchUrl(url, function(data){
-                    $("#content").text(JSON.stringify(data));
+                    var parsedData = data.d.results.map(function(element){
+                        return { "blogUrl": element.Url, "User": { urls: ["user profile here"]} };
+                    });
+                    $("#content").text(JSON.stringify(parsedData));
                 })
             });
             
