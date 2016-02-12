@@ -104,7 +104,7 @@ function retrievePage (url, cb) {
                 var url = generateUrl(searchTerms);
                 searchUrl(url, function(data){
                     var parsedData = data.d.results.map(function(element){
-                        return $("<tr></tr>").html("<td>" + element.Url + "</td><td>" + ["URL1","URL2"].join("<br/>") + "</td>");
+                        return $("<tr></tr>").html("<td><a href='" + element.Url + "'>" + element.Url + "</a></td><td>" + ["URL1","URL2"].join("<br/>") + "</td>");
                     });
                     $("#content").html(parsedData);
                 })
