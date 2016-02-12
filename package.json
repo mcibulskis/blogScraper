@@ -1,0 +1,22 @@
+{
+  "name": "blogscraper",
+  "version": "1.0.0",
+  "description": "Scrape through blog sites looking for content that appears to be relevant to targeted interests.",
+  "main": "searcher.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcibulskis/blogScraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcibulskis/blogScraper/issues"
+  },
+  "homepage": "https://github.com/mcibulskis/blogScraper#readme",
+  "devDependencies": {
+    "lite-server": "^2.0.1"
+  }
+}
