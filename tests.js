@@ -44,14 +44,18 @@ QUnit.test("generateUrl returns test URL when test is passed in", function(asser
 
 QUnit.test( "url can be retrieved", function( assert ) {
   var u;
-  for (u in data.d.results) {
-    (function() {
-      var done = assert.async()
-      retrievePage(data.d.results[u].Url, function (xmlhttpreq, error) {
-         assert.ok(0 < xmlhttpreq.responseText.length); done();
-      } )
-    })();
-  }
+  var thisdone = assert.async();
+	searchUrl('sample.json', function(data) {
+    for (u in data.d.results) {
+      (function() {
+        var done = assert.async()
+        retrievePage(data.d.results[u].Url, function (xmlhttpreq, error) {
+           assert.ok(0 < xmlhttpreq.responseText.length); done();
+        } )
+      })();
+    }
+    thisdone();
+  });
 });
 
 QUnit.test("generateUrl returns correct url when given search terms", function(assert){
