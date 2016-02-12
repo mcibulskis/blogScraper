@@ -4,7 +4,7 @@
   "description": "Scrape through blog sites looking for content that appears to be relevant to targeted interests.",
   "main": "searcher.js",
   "scripts": {
-    "start": "lite-server"
+    "start": "./node_modules/.bin/corsproxy && lite-server"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,9 @@
     "url": "https://github.com/mcibulskis/blogScraper/issues"
   },
   "homepage": "https://github.com/mcibulskis/blogScraper#readme",
+  "dependencies": {
+    "corsproxy": "^1.4.0"
+  },
   "devDependencies": {
     "lite-server": "^2.0.1"
   }
